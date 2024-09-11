@@ -5,10 +5,10 @@ export default function Layout({ children, home }) {
   return (
     <div className="max-w-xl mx-auto py-8">
       <Head>
-        <title>Running Log</title>
+        <title>Arnav&apos;s Running Log</title>
       </Head>
       <header className="mb-8">
-        <h1 className="text-4xl font-bold">Arnav's Running Log</h1>
+        <h1 className="text-4xl font-bold">Arnav Chauhan&apos;s Running Log</h1>
       </header>
       <main>{children}</main>
       {!home && (
