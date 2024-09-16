@@ -1,12 +1,17 @@
 import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
+import Head from 'next/head'
 
 export default function Post({ postData }) {
   return (
     <Layout>
+      <Head>
+        <title>{postData.title}</title>
+      </Head>
       <article>
-        <h1 className="text-3xl font-bold mb-4">{postData.title}</h1>
-        <div className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <h1>{postData.title}</h1>
+        <div>{postData.date}</div>
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   )
