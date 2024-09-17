@@ -1,0 +1,47 @@
+.blogpost {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blogpost h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+  
+  .blogpost h2 {
+    font-size: 2em;
+    color: #ffffff;
+  }
+  
+  .blogpost h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  
+  .blogpost p {
+    margin-bottom: 1em;
+  }
+  
+  .blogpost ul, .blogpost ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .blogpost li {
+    margin-bottom: 0.5em;
+  }
+  
+  .blogpost a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .blogpost a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add more specific styles as needed */
