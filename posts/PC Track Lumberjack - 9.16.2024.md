@@ -1,8 +1,7 @@
 ---
 title: "PC Track Lumberjack - 9/16/2024"
-date: "9/13/2024"
+date: "9/16/2024"
 ---
-## PC Track Lumberjack \- 9/16/2024
 
 Workout Rating 9/10
 
